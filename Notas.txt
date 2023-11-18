@@ -68,5 +68,26 @@ BASES DE DATOS (Elegimos los tipos de DB que necesitemos y nos cobran por el uso
 
 MODELO: Pago por uso (Pay as you go. Se calcula multiplicando la cantidad de minutos consumidos referidos a horas, por el precio por hora de uso). No tiene en cuenta muchos costos fijos que tiene el ON-PREMISES para empezar a operar (comprar un servidor, el cableado, el storage, el licenciamiento de la base de datos, etc).
 
+Agilidad: La capacidad de escalar y desplegar recursos rápidamente según la demanda, lo que agiliza el desarrollo y la entrega de aplicaciones y servicios.
+
+Ahorro de costos: Reducción de los gastos de inversión en infraestructura y mantenimiento, además de pagar solo por lo que se utiliza, lo que optimiza los costos operativos.
+
+Elasticidad: La habilidad de aumentar o disminuir los recursos de manera automática para adaptarse a picos de carga o cambios en la demanda, asegurando un rendimiento óptimo.
+
+Innovación: Al eliminar la preocupación por la gestión de infraestructura, los equipos pueden centrarse en la creación y mejora constante de aplicaciones y servicios innovadores.
+
+Despliegue global en minutos: La posibilidad de implementar aplicaciones y recursos en múltiples regiones del mundo de manera rápida y sencilla.
+
+Catálogo de servicios: Acceso a una amplia variedad de servicios preconfigurados, como bases de datos, análisis y machine learning, lo que acelera el desarrollo y ahorra tiempo.
+
+1. Modelo de costos (CAPEX a OPEX): Cambio del gasto de capital (CAPEX) tradicional en infraestructura a gastos operativos (OPEX) variables según el uso, lo que permite una mayor flexibilidad financiera.
+2. Modelo de entrega/despliegue (Automatización y creación de ambientes): Automatización de la implementación y creación de ambientes a través de código, lo que agiliza la configuración y gestión de recursos.
+3. Patrones nativos de nube: Diseño de aplicaciones específicamente para aprovechar las características únicas de la nube, como escalabilidad horizontal y alta disponibilidad.
+4. Escalabilidad y resiliencia: Capacidad de aumentar dinámicamente los recursos y diseñar sistemas para resistir fallas y mantener la disponibilidad en diferentes zonas y regiones.
+5. Tecnologías disruptivas: Integración de tecnologías disruptivas como Inteligencia Artificial (IA), análisis de datos, robótica, satélites y automatización para innovar en soluciones.
+6. Modelo de seguridad compartida: Distribución de la responsabilidad de la seguridad entre el proveedor de servicios en la nube y el usuario, asegurando una implementación segura y cumplimiento normativo.
+
+
+
 
 
