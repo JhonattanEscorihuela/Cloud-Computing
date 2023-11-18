@@ -1,0 +1,72 @@
+• BD relacionales : Los datos están organizados en un conjunto de tablas que están relacionados entre si
+	○ MYSQL
+	○ Oracle
+	○ OsgraSQL
+	○ MariaSB
+	○ SQL server
+
+	○ Por ejemplo una tabla de usuarios que esté relacionada con otra tabla que contenga la cantidad de tarjetas que tenga registrada en un servicio
+		§ 
+
+• BD Clave/valor  Key/Value
+	Utiliza un modelo de llave - valor para almacenar los datos. Los almacena como un conjunto  de pares. 
+	○ Es una base de datos NO relacional
+	○ 
+	
+	○ Se usa comúnmente como tabla de transacciones
+
+• BD en memoria
+	○ Utiliza la memoria para almacenar los datos , es de naturaleza NO relacional
+	○ Se usa mucho para que la agilidad o velocidad de lectura de datos sea mucho más rápida que cuando está en un disco duro
+
+• BD documentales
+	○ Mongo es la más famosa
+	○ Se usa para guardar JSON (Java Script Objet notation (fundamentado en texto, y es muy liviano. Se usa, sobre todo, para transmitir datos entre un servidor y una aplicación web )) de información muy grandes 
+
+• BD columnaer
+	○ Es relacional y está optimizada para almacenar los datos en columnas para mejorar el desempeño
+	○ Se usa para data warehousing (Los data warehouses pueden: Almacenar grandes cantidades de datos en una base de datos central – y en un formato estándar. Integrar datos de diferentes fuentes y estandarizarlos, de modo que se faciliten el análisis y los reportes. )
+	○ Separa cada columna por aparte 
+	○ Aplica compresión en las columnas para que sea más eficiente
+• BD Grafos
+	○ Representa la información en forma de vértices y aristas 
+	○ Sirve para identificar relaciones fuertes y conocer quien más usuario y que tipo de red de contactos cercanos usan o tienen alguna app o servicio
+		§ 
+	○ Sirve para hacer timestamps para saber cuándo cambió el valor de un objeto
+	○ Sirve para hacer monitoreos a través del tiempo - PROMETEUS es una de las BD más conocidas de la nube
+
+-Infraestructura como código: Permite gestionar y desplegar la infraestructura en un proveedor de servicios de nube a través de código, en vez de hacerlo con procesos manuales.
+
+-Función: Es un entorno de ejecución serverless para ejecutar código sin la necesidad de administrar un servidor.
+
+**-Contenedor Docker: ** Contenedor ejecutable, independiente que tiene todo lo necesario para ejecutar una aplicación.
+
+-Microservicio: Un concepto en el cual una aplicación se construye como una serie de pequeños servicios.
+
+On-premises se refiere a la ubicación física de recursos informáticos, como servidores, sistemas de almacenamiento y redes, que se encuentran y operan dentro de las instalaciones de una organización. En otras palabras, cuando una empresa o entidad tiene una infraestructura informática “on-premises”, significa que todos sus recursos y sistemas de TI están alojados en su propio entorno físico, como sus oficinas, centros de datos privados o instalaciones locales.
+
+En contraste, la nube y los servicios en la nube ofrecen alternativas en las que las organizaciones pueden aprovechar recursos informáticos a través de proveedores de servicios en la nube, como Amazon Web Services (AWS), Microsoft Azure o Google Cloud Platform. Estos proveedores ofrecen servicios que permiten a las organizaciones alquilar recursos informáticos de manera flexible y escalable, sin la necesidad de gestionar la infraestructura física.
+
+Enlace 1 : https://cloud.google.com/learn/what-is-cloud-computing?hl=es-419
+
+Enlace 2: https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-the-cloud
+
+Enlace 3: https://aws.amazon.com/es/what-is-cloud-computing/
+
+Definición de CLOUD COMPUTING (NUBE): es la entrega POR DEMANDA de infraestructura y todo tipo de servicios de aplicación vía internet. Con precios por demanda, donde solo se paga por lo que se consume.
+INFRAESTRUCTURA: servidores, almacenamiento, base de datos, servicio de contenedores, de funciones, etc.
+COSTOS: en ON-PREMISES (costo de energía, aire acondicionado, sistemas contra incendio, internet, hardware, depreciación del hardware, etc ). En la NUBE (a través de internet le pedimos un servidor a un CLOUD PROVIDER y nos olvidamos del cálculo de los costos. El CLOUD PROVIDER te va a cobrar por segundo de uso).
+Servicios de la NUBE:
+
+ALMACENAMIENTO (Me lo da la NUBE por demanda. Por bloque o por archivo o por objeto).
+
+SERVIDORES (en 5 minutos tenemos el servidor requerido).
+
+APLICACIONES (el cloud provider me puede dar aplicaciones que puede consumir por demanda. Ej: reconocimiento facial).
+
+BASES DE DATOS (Elegimos los tipos de DB que necesitemos y nos cobran por el uso. Por ejemplo, consumimos 3 DB: en memoria, relacional y llave valor).
+
+MODELO: Pago por uso (Pay as you go. Se calcula multiplicando la cantidad de minutos consumidos referidos a horas, por el precio por hora de uso). No tiene en cuenta muchos costos fijos que tiene el ON-PREMISES para empezar a operar (comprar un servidor, el cableado, el storage, el licenciamiento de la base de datos, etc).
+
+
+
